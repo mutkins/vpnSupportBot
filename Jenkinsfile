@@ -1,7 +1,7 @@
 pipeline {
     agent any
     environment {
-       tgBot_id = credentials('convert_bot_id')
+       tgBot_id = credentials('vpn_support_bot_id')
        CHAT_ID = credentials('my_chat_id')
     }
     options {

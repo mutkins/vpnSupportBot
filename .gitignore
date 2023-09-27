@@ -1,0 +1,6 @@
+# ignore all logs
+*.log
+# ignore local env
+*.env
+#ignore temp folder
+temp/
